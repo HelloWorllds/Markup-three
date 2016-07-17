@@ -1,0 +1,498 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .main_section .logo {
+	  margin-bottom: 90px;
+	}
+
+	header .header h1 {
+	  font-size: 45px;
+	  line-height: 45px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	  position: relative;
+	  right: 15px;
+	  z-index: 1;
+	}
+
+	header .main_section .clock .dhm .c_header {
+	  font-size: 12px;
+	  margin-top: -17px;
+	  padding: 0 0 0 17px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .clock .dhm .days {
+	  font-size: 30px;
+	}
+
+	header .main_section .clock .dhm .hours {
+	  font-size: 30px;
+	}
+
+	header .main_section .clock .dhm .min {
+	  font-size: 30px;
+	}
+
+	header .main_section .clock .sec {
+	  margin-left: 10px;
+	  top: 10px;
+	  z-index: 1
+	}
+
+	header .main_section .logo {
+	  font-size: 72px;
+	  padding: 54px 27px 54px 28px;
+	  margin-bottom: 50px;
+	  margin-left: 0px;
+	  position: relative;
+	  z-index: 1
+	}
+
+	header .main_section .mail {
+	  padding: 33px 22px;
+	  margin-left: 20px;
+	  bottom: 13px;
+	  z-index: 1
+	}
+
+	header .main_section .mail img {
+	  width: 80%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 20px;
+	  font-size: 13px;
+	  position: relative;
+	  bottom: 15px;
+	  z-index: 1
+	}
+
+	header .main_section .subscribe input {
+	  width: 200px;
+	  height: 50px;
+	  margin-top: -10px;
+	  font-size: 18px;
+	  text-indent: 10px;
+	}
+
+	header .social {
+	  font-size: 30px;
+	  line-height: 25px;
+	}
+
+	header .bg {
+	  margin-top: -440px;
+	  position: relative;
+	  right: 90px;
+	  z-index: 0;
+	  width: 110%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .main_section .logo {
+	  margin-bottom: 90px;
+	}
+
+	header .header h1 {
+	  font-size: 35px;
+	  line-height: 35px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	  position: relative;
+	  right: 15px;
+	  z-index: 1;
+	}
+
+	header .main_section .clock .dhm .c_header {
+	  font-size: 8px;
+	  margin-top: -15px;
+	  padding: 0 0 0 15px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .clock .dhm .days {
+	  font-size: 20px;
+	}
+
+	header .main_section .clock .dhm .hours {
+	  font-size: 20px;
+	}
+
+	header .main_section .clock .dhm .min {
+	  font-size: 20px;
+	}
+
+	header .main_section .clock .sec {
+	  min-width: 55px;
+	  min-height: 55px;
+	  margin-left: 10px;
+	  top: 10px;
+	  z-index: 1
+	}
+
+	header .main_section .clock .sec p {
+	  font-size: 26px;
+	  line-height: 18px;
+	  padding: 12px 0 0 0;
+	}
+
+	header .main_section .clock .sec strong {
+	  font-size: 16px;
+	  line-height: 10px;
+	  margin-bottom: 10px;
+	}
+
+	header .main_section .logo {
+	  font-size: 72px;
+	  padding: 54px 27px 54px 28px;
+	  margin-bottom: 50px;
+	  margin-left: 0px;
+	  position: relative;
+	  z-index: 1
+	}
+
+	header .main_section .mail {
+	  padding: 23px 12px;
+	  margin-left: 15px;
+	  bottom: 13px;
+	  z-index: 1
+	}
+
+	header .main_section .mail img {
+	  width: 60%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 0;
+	  font-size: 10px;
+	  position: relative;
+	  bottom: 15px;
+	  z-index: 1
+	}
+
+	header .main_section .subscribe input {
+	  width: 150px;
+	  height: 40px;
+	  margin-top: -10px;
+	  font-size: 13px;
+	  text-indent: 8px;
+	}
+
+	header .social {
+	  font-size: 30px;
+	  line-height: 25px;
+	}
+
+	header .bg {
+	  margin-top: -440px;
+	  position: relative;
+	  right: 70px;
+	  z-index: 0;
+	  width: 110%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .main_section .logo {
+	  margin-bottom: 90px;
+	}
+
+	header .header h1 {
+	  font-size: 25px;
+	  line-height: 25px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .logo {
+	  display: block;
+	  border: 5px solid #c2c2c1;
+	  font-size: 72px;
+	  padding: 55px 5px;
+	  margin: 0 auto;
+	  max-width: 250px; 
+	  max-height: 250px;
+	}
+
+	header .main_section .mail {
+	  padding: 11px 0 15px 0;
+	  margin-left: 20px;
+	  bottom: 0;
+	}
+
+	header .main_section .mail img {
+	  width: 50%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 0;
+	  font-size: 15px;
+	}
+
+	header .main_section .subscribe input {
+	  width: 250px;
+	  border-radius: 5px;
+	  text-indent: 20px;
+	  margin-bottom: 30px;
+	  margin-left: 20px;
+	}
+
+	header .social {
+	  font-size: 20px;
+	  line-height: 18px;
+	}
+
+	header .bg {
+	  display: none;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	header .main_section .logo {
+	  margin-bottom: 90px;
+	}
+
+	header .header h1 {
+	  font-size: 25px;
+	  line-height: 25px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .logo {
+	  display: block;
+	  border: 5px solid #c2c2c1;
+	  font-size: 72px;
+	  padding: 55px 5px;
+	  margin: 0 auto;
+	  max-width: 250px; 
+	  max-height: 250px;
+	}
+
+	header .main_section .mail {
+	  padding: 11px 0 15px 0;
+	  margin-left: 20px;
+	  bottom: 0;
+	}
+
+	header .main_section .mail img {
+	  width: 50%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 0;
+	  font-size: 15px;
+	}
+
+	header .main_section .subscribe input {
+	  width: 250px;
+	  border-radius: 5px;
+	  text-indent: 20px;
+	  margin-bottom: 30px;
+	  margin-left: 20px;
+	}
+
+	header .social {
+	  font-size: 20px;
+	  line-height: 18px;
+	}
+
+	header .bg {
+	  display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .header h1 {
+	  font-size: 25px;
+	  line-height: 25px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .logo {
+	  display: block;
+	  border: 5px solid #c2c2c1;
+	  font-size: 72px;
+	  padding: 55px 5px;
+	  margin: 0 auto;
+	  max-width: 250px; 
+	  max-height: 250px;
+	}
+
+	header .main_section .mail {
+	  padding: 11px 0 15px 0;
+	  margin-left: 20px;
+	  bottom: 0;
+	}
+
+	header .main_section .mail img {
+	  width: 50%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 0;
+	  font-size: 15px;
+	}
+
+	header .main_section .subscribe input {
+	  width: 250px;
+	  border-radius: 5px;
+	  text-indent: 20px;
+	  margin-bottom: 30px;
+	  margin-left: 20px;
+	}
+
+	header .social {
+	  font-size: 20px;
+	  line-height: 18px;
+	}
+
+	header .bg {
+	  display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	header .header h1 {
+	  font-size: 25px;
+	  line-height: 25px;
+	}
+
+	header .main_section .clock {
+	  margin-left: 0;
+	  margin-bottom: 30px;
+	}
+
+	header .main_section .clock .dhm {
+	  font-size: 18px;
+	  padding: 1px 5px;
+	}
+
+	header .main_section .logo {
+	  display: block;
+	  border: 5px solid #c2c2c1;
+	  font-size: 72px;
+	  padding: 55px 5px;
+	  margin: 0 auto;
+	  max-width: 250px; 
+	  max-height: 250px;
+	}
+
+	header .main_section .mail {
+	  padding: 11px 0 15px 0;
+	  margin-left: 20px;
+	  bottom: 0;
+	}
+
+	header .main_section .mail img {
+	  width: 50%;
+	}
+
+	header .main_section .subscribe {
+	  margin-left: 0;
+	  font-size: 15px;
+	}
+
+	header .main_section .subscribe input {
+	  width: 250px;
+	  border-radius: 5px;
+	  text-indent: 20px;
+	  margin-bottom: 30px;
+	  margin-left: 20px;
+	}
+
+	header .social {
+	  font-size: 20px;
+	  line-height: 18px;
+	}
+
+	header .bg {
+	  display: none;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+ /*my media*/
+
+@media only screen and (max-width : 790px) {
+
+}
+
+ /*
+ @media (min-height: 720px) and (min-width : 1400px) {
+ 	
+}
+*/
